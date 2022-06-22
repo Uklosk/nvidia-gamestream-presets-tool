@@ -1,5 +1,7 @@
 # NVIDIA GameStream Presets Tool
 
+![NVIDIA GameStream Presets Tool](.resources/image.png?raw=true "NVIDIA GameStream Presets Tool")
+
 ## Building with cargo
 
 ```
@@ -13,7 +15,7 @@ The assets directory with the default box art png must be placed in the working 
 ### Running with CLI arguments
 
 ```
-cargo run --release -- -t "C:\Home\Games\Emus\Yuzu\yuzu.exe" -s "C:\\Home\\Programs\\Steam\\userdata\\37089855\\config\\" -d "C:\\Users\\jmga\\AppData\\Local\\NVIDIA Corporation\\Shield Apps\\"
+cargo run --release -- -t "C:\Home\Games\Emus\Yuzu\yuzu.exe" -s "C:\\Program Files (x86)\\Steam\\userdata\\99999999\\config\\" -d "C:\\Users\\USER\\AppData\\Local\\NVIDIA Corporation\\Shield Apps\\"
 ```
 
 ### Running with custom ini file
