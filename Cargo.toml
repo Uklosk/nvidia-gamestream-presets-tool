@@ -1,6 +1,6 @@
 [package]
 name = "nvidia-gamestream-presets-tool"
-version = "0.0.1"
+version = "0.0.2"
 edition = "2021"
 authors = ["Uklosk <jomai92@gmail.com>"]
 description = "Create NVIDIA GameStream Presets from Steam Shortcuts. Useful with SteamRomManager"

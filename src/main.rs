@@ -8,7 +8,7 @@ extern crate ini;
 use ini::Ini;
 
 const SHORCTUTS_FILE: &str = r"shortcuts.vdf";
-const STREAMING_ASSETS_SUBDIR: &str = r"StreammingAssets\";
+const STREAMING_ASSETS_SUBDIR: &str = r"StreamingAssets\";
 
 fn wrap_with_marks(text: &str) -> String {
     let mut res = "\"".to_owned();
